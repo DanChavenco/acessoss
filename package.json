@@ -1,25 +1,24 @@
 {
-  "name": "acessoss",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "civens",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DanChavenco/acessoss.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DanChavenco/acessoss/issues"
-  },
-  "homepage": "https://github.com/DanChavenco/acessoss#readme",
   "dependencies": {
-    "next": "^10.0.3",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "axios": "^0.21.1",
+    "mongodb": "^3.6.4",
+    "next": "10.0.7",
+    "next-auth": "^3.11.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.6.9",
+    "@types/node": "^14.14.33",
+    "@types/react": "^17.0.3",
+    "typescript": "^4.2.3"
   }
 }

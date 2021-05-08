@@ -1,0 +1,33 @@
+.loginBtn {
+  height: 70%;
+  max-height: 40px;
+  min-width: 100px;
+  border-radius: 20px;
+  border-style: none;
+  outline: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.logoutBtn {
+  height: 70%;
+  max-height: 40px;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--primary-color);
+  font-weight: 500;
+  text-align: right;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.profileImage {
+  max-height: 40px;
+  max-width: 40px;
+  border-radius: 20px;
+  background-color: yellow;
+}
